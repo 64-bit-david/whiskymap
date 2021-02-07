@@ -1,0 +1,1051 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Dufftown Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.127826,
+          57.435734
+        ],
+        "type": "Point"
+      },
+      "id": "046cf09087e2bcd45a505dce9fbfd4d0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Jura Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.951593,
+          55.832669
+        ],
+        "type": "Point"
+      },
+      "id": "05d97e5fd35a551739a4d94512b0744c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Scapa Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.985931,
+          58.964073
+        ],
+        "type": "Point"
+      },
+      "id": "0dc5b804995591058222b0da1491141a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glen Ord Distillary"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.47559,
+          57.522282
+        ],
+        "type": "Point"
+      },
+      "id": "0eeeff8eae56fd480f7cb12f4802fd4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Benromach Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.619688,
+          57.613651
+        ],
+        "type": "Point"
+      },
+      "id": "1aa033dcc3728c32511f5d0c35f5733f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Springbank Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.609286,
+          55.42551
+        ],
+        "type": "Point"
+      },
+      "id": "1bdaf2a84605a27836216cfc5a65def1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glenglassaugh Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.737185,
+          57.679509
+        ],
+        "type": "Point"
+      },
+      "id": "1dc22dcdb6c17f0e03cd94a20106b222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Royal Lochnagar Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.209792,
+          57.029983
+        ],
+        "type": "Point"
+      },
+      "id": "1e9b9832e2832f3f15b3ec5ab64df477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glengoyne Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.36237,
+          56.01431
+        ],
+        "type": "Point"
+      },
+      "id": "28eb0efb478fc01c7b9a5ca395d4c905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glen Grant Distillary"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.210905,
+          57.530109
+        ],
+        "type": "Point"
+      },
+      "id": "2a907d2cc8debcf9c172486b187a2ecc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Tamdhu Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.353486,
+          57.45903
+        ],
+        "type": "Point"
+      },
+      "id": "2bcfdee67315d177fadec0f5a713350c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Torabhaig Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.848562,
+          57.112968
+        ],
+        "type": "Point"
+      },
+      "id": "34a9bf5f2dc2e06d961ab0ab3b71b074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "The Balvenie Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.12639,
+          57.458185
+        ],
+        "type": "Point"
+      },
+      "id": "3a29468f8953a57a29348ac1d21671ef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Cragganmore Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.394641,
+          57.410601
+        ],
+        "type": "Point"
+      },
+      "id": "3aad654be09b0a092af79038e76c2402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Royal Brackla Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.904574,
+          57.539467
+        ],
+        "type": "Point"
+      },
+      "id": "3adb7df9bc9173b812f77813377eee7b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Clynelish Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.868204,
+          58.024077
+        ],
+        "type": "Point"
+      },
+      "id": "44c9d69823b553b3d2b648e367900ceb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Mortlach Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.122213,
+          57.442905
+        ],
+        "type": "Point"
+      },
+      "id": "4b44b24ca97e96b997d42849876594ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glenmorangie Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.077169,
+          57.826013
+        ],
+        "type": "Point"
+      },
+      "id": "4bba71701310fa3dacd445279a432045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bunnahabhain Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.126476,
+          55.882759
+        ],
+        "type": "Point"
+      },
+      "id": "5107ae8c64d1f877250d2b3a1a92076b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Girvan Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.827631,
+          55.267455
+        ],
+        "type": "Point"
+      },
+      "id": "51308f45d72d8dd3afac054a4415d75e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "GlenDronach Distillary"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.624784,
+          57.483419
+        ],
+        "type": "Point"
+      },
+      "id": "51c7e3af4021cdf19c93bfc687c6b6ea"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Strathisla Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.954893,
+          57.546993
+        ],
+        "type": "Point"
+      },
+      "id": "5982d702b9b57bdab8ce6457e0cec7f3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "The Borders Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.788777,
+          55.424209
+        ],
+        "type": "Point"
+      },
+      "id": "5a3e2282c826a947c87071b9b94088ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1": "Deanston Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.071088,
+          56.188999
+        ],
+        "type": "Point"
+      },
+      "id": "5ab556c1d474e1992594cf2a831c06aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Pittyvaich Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.131856,
+          57.436814
+        ],
+        "type": "Point"
+      },
+      "id": "5b3be0073db656012943f13788cf968a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glencadam Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.653492,
+          56.73629
+        ],
+        "type": "Point"
+      },
+      "id": "5fab3e1910183606460cfb6ab54b3ba5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Isle of Raasay Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.073771,
+          57.351804
+        ],
+        "type": "Point"
+      },
+      "id": "6165e619084868f85361432ca9568ad4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Fettercairn Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.581645,
+          56.853325
+        ],
+        "type": "Point"
+      },
+      "id": "6369af2e67458547ff98c74edbfe0803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Tullibardine Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.786669,
+          56.257268
+        ],
+        "type": "Point"
+      },
+      "id": "638e6247249a444e35100114839be1b0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "The Clydeside Distllery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.296896,
+          55.862188
+        ],
+        "type": "Point"
+      },
+      "id": "6468271b2219a82fdefc41df4aa77c7b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kingsbarn Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.642798,
+          56.287124
+        ],
+        "type": "Point"
+      },
+      "id": "6a097a9e71fb127cde873d8d015c9ec7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "The Glenlivet Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.338822,
+          57.34356
+        ],
+        "type": "Point"
+      },
+      "id": "700cae400314a8f740ccad67f491f8ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Lindores Abbey Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.225819,
+          56.352108
+        ],
+        "type": "Point"
+      },
+      "id": "702a790bbae17dc2093a955615b49955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Lochranza Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.275578,
+          55.697856
+        ],
+        "type": "Point"
+      },
+      "id": "7918efff53370f3cc59be5b5c86672ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Oban Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.4716,
+          56.414826
+        ],
+        "type": "Point"
+      },
+      "id": "7a47845af7347365f98f0d803a48dedb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1": "Deanston Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.073317,
+          56.190156
+        ],
+        "type": "Point"
+      },
+      "id": "7bce59744be25c53e9ba552cf52315fb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Teaninich Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.260281,
+          57.691522
+        ],
+        "type": "Point"
+      },
+      "id": "856595d5890c9a3fc2c84bcd4a6b2650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Tobermory Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.07052,
+          56.620686
+        ],
+        "type": "Point"
+      },
+      "id": "85d9ded0be0c2a1f077d5d1d4b4fa038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Highland Park Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.955601,
+          58.968808
+        ],
+        "type": "Point"
+      },
+      "id": "8721007fdfb2684a7914bb68445e275d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Craigellachie Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.184643,
+          57.48847
+        ],
+        "type": "Point"
+      },
+      "id": "8915274415fe297745e9a7813408c5f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Abelour Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.22943,
+          57.468015
+        ],
+        "type": "Point"
+      },
+      "id": "908ab5b929d93880ebb32d3967f097b5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Cardhu Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.348855,
+          57.471038
+        ],
+        "type": "Point"
+      },
+      "id": "90974e4bd04fbd8bb2d9904acdfa4a84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Laag Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.248674,
+          55.446256
+        ],
+        "type": "Point"
+      },
+      "id": "9108fffbcf689e6b5d0b9352c779edcc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Talisker Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.356145,
+          57.302778
+        ],
+        "type": "Point"
+      },
+      "id": "9176c7c55babb4e32ec894bc4352d972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Cameronbridge Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.055897,
+          56.188911
+        ],
+        "type": "Point"
+      },
+      "id": "9356ced0b4b0e94dbf9f1a4bf3564f02"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "The Macallan Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.209791,
+          57.486034
+        ],
+        "type": "Point"
+      },
+      "id": "946bb9348ed09bb59b44cc8a5eb9cdfe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glen Moray Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.342129,
+          57.645156
+        ],
+        "type": "Point"
+      },
+      "id": "946d56d47e8412e8453a69b2e15ce983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glenkinchie Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.890574,
+          55.890977
+        ],
+        "type": "Point"
+      },
+      "id": "9e3a21af3be379fd15b5af3324294e9e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "The Glenallachie Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.231369,
+          57.455803
+        ],
+        "type": "Point"
+      },
+      "id": "a5cfe13feb0862218b8995ba35c33bb1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Dalwhinnie Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.239405,
+          56.940007
+        ],
+        "type": "Point"
+      },
+      "id": "a827e461762dd779eeb656663c8df482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bruichladdich Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.363002,
+          55.766771
+        ],
+        "type": "Point"
+      },
+      "id": "ab8ec014b0549929630313728d6f1d96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Tomantin Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.008913,
+          57.339574
+        ],
+        "type": "Point"
+      },
+      "id": "b1267bacf9143b1c781086febbe9a573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Ardbeg Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.107938,
+          55.640678
+        ],
+        "type": "Point"
+      },
+      "id": "b237e86d997f2164ecef5c762b9284dd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bowmore Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.28997,
+          55.75675
+        ],
+        "type": "Point"
+      },
+      "id": "b9d00913e227d9b64d6db2cf725afe37"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bladnoch Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.462954,
+          54.858699
+        ],
+        "type": "Point"
+      },
+      "id": "ba315a7f44473d4f00cab5e5d6255a7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Lagavulin Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.126398,
+          55.635455
+        ],
+        "type": "Point"
+      },
+      "id": "bad9bd9b6b5ac517d2278335398f73e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          -3.210916,
+          57.530104
+        ],
+        "type": "Point"
+      },
+      "id": "be237ca87adeabfe9aca926244d2ce70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Pulteney Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.084718,
+          58.434399
+        ],
+        "type": "Point"
+      },
+      "id": "bfffc30debaf2e79453cdbf98700bfa1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Caol Ila Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.109571,
+          55.854395
+        ],
+        "type": "Point"
+      },
+      "id": "c095fdf01b0435fc372fa346ac0f313e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Dalmore Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.23877,
+          57.688362
+        ],
+        "type": "Point"
+      },
+      "id": "c171ae420425b24a5e8918d24697d043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glen Scotia Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.604714,
+          55.429346
+        ],
+        "type": "Point"
+      },
+      "id": "c47ebe826d45aea8b53f70872e9956e8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Nc'nean Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.990037,
+          56.623679
+        ],
+        "type": "Point"
+      },
+      "id": "c8fbdf0c3c41b52ffd9c23002ee04813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Eden Mill"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.891922,
+          56.363354
+        ],
+        "type": "Point"
+      },
+      "id": "d2c9b355bdf8103e18733a7b3c9ce1a2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Ben Nevis Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -5.073175,
+          56.835024
+        ],
+        "type": "Point"
+      },
+      "id": "d46e51166b5ef02b2631de97198c3fd8"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          -3.210927,
+          57.530104
+        ],
+        "type": "Point"
+      },
+      "id": "d95e1b42878b4a3c0897581f0313c939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glen Garioch Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.319458,
+          57.338292
+        ],
+        "type": "Point"
+      },
+      "id": "daab8a460946ea03fc63877ea2326682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Balbair Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.180773,
+          57.840138
+        ],
+        "type": "Point"
+      },
+      "id": "ddb398df2aeaea6bbb1b1960afb984ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Blair Athol Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.722797,
+          56.698262
+        ],
+        "type": "Point"
+      },
+      "id": "e5f6871846477386010304b53348516b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Allt-a-Bhainne Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.206737,
+          57.394717
+        ],
+        "type": "Point"
+      },
+      "id": "e8b1547dd537e8db9e39a7f87a701570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Laphroaig Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.152115,
+          55.629703
+        ],
+        "type": "Point"
+      },
+      "id": "e97bce9d52e9423a11ad6cd700c3911d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Strathearn Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.62054,
+          56.396268
+        ],
+        "type": "Point"
+      },
+      "id": "ed98658bf13dd398171562554ab65301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Edradour Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.701127,
+          56.701461
+        ],
+        "type": "Point"
+      },
+      "id": "f4663968f41b8238ece886c01c8d3b93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glenrinnes Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.221647,
+          57.383206
+        ],
+        "type": "Point"
+      },
+      "id": "f55f79d2f08baa8706ac69338107e7c3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Auchentoshan Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.437523,
+          55.922418
+        ],
+        "type": "Point"
+      },
+      "id": "f9c09f30de3edd2176c9b399e2917fc4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Aberlour Distillery"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.849915,
+          56.624484
+        ],
+        "type": "Point"
+      },
+      "id": "fcb4e630bf05bd4f15a00e9922133e27"
+    }
+  ],
+  "type": "FeatureCollection"
+}
