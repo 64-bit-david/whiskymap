@@ -799,7 +799,9 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Pulteney Distillery"
+        "NAME": "Pulteney Distillery",
+        "YEAR": 1899,
+        "REGION": "Highland"
       },
       "geometry": {
         "coordinates": [
