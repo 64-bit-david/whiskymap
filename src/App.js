@@ -85,6 +85,7 @@ const App = () => {
                 <h3>{selectedDistillery.properties.NAME}</h3>
                 <p>Founded in: {selectedDistillery.properties.YEAR}</p>
                 <p>Region: {selectedDistillery.properties.REGION}</p>
+                <p>Website: </p>
               </ Popup>
             </div>
           )}
