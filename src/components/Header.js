@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Nav = () => {
+const Header = () => {
   return (
-    <div className="nav">
+    <div className="header">
       <h1>Distillery Map</h1>
     </div>
   )
 }
 
-export default Nav
+export default Header

@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react'
 import ReactMapGl, { Marker, Popup, NavigationControl, FullscreenControl } from "react-map-gl";
 import * as distilleries from "./data/dist-locations.json";
-import Nav from './components/Nav';
+import Header from './components/Header';
 import About from './components/About';
 
 
@@ -50,8 +50,10 @@ const App = () => {
 
   return (
     <div className="main-container">
-      <Nav />
-      <About />
+      <div className="nav">
+        <Header />
+        <About />
+      </div>
       <div className="map-container">
         <ReactMapGl
           {...viewport}
