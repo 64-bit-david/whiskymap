@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+:root{
+  --main-font: 'Courgette', cursive;
+  --main-text-color-dark: rgb(63, 63, 63);
+  --main-text-color-light: white;
+  --effect-color: rgba(64,64,64,0.44);
+  --main-bg-color-light: #D2BAAD;
+  --main-bg-color-dark: #967F73;
+  --main-search-color: rgb(46, 46, 46);
+
+
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,7 +53,8 @@ body {
   background: none;
   cursor: pointer;
   transition: all .1s ease-in;
-  color: rgb(44, 44, 44);
+  color: var(--main-text-color-dark);
+  
 }
 
 .drop-btn.clicked{
@@ -49,23 +62,31 @@ body {
 }
 
 .drop-btn-container:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
-
-.about-btn-link, .input{
+ .input{
 transform: translateY( -8rem);
 transition: all .2s ease-in ;
 
 }
 
-.about-btn-link.clicked, .input.clicked{
+.input.clicked{
   transform: translateY(0);
 }
 
-.about-link{
-  font-family: 'Courgette', cursive;
-   color: rgb(63, 63, 63);
+.about-btn-container{
+  position: absolute;
+  top: 6.5rem;
+  left: 8rem;
+}
+
+.about-btn{
+  font-family: var(--main-font);
+  color: var(--main-text-color-dark);
+  background: none;
+  border: none;
+  outline: transparent;
   cursor: pointer;
   padding: .25rem .5rem;
   font-size: 1.5rem;
@@ -74,7 +95,7 @@ transition: all .2s ease-in ;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
-.about-link:hover{
+.about-btn:hover{
 text-decoration: underline;  
 }
 
@@ -86,31 +107,42 @@ text-decoration: underline;
 }
 
 .input input {
-  font-family: 'Courgette', cursive; 
+  font-family: var(--main-font);
   height: inherit;
-  border: none;
-  width: 400px;
-  font-size: 1.1rem;
+  border: 2px solid var(--effect-color);
+  width: 600px;
+  background-color: var(--main-bg-color-dark);
+  color: var(--main-search-color);
+  font-size: 1.3rem;
   padding: 0;
   padding-left: 5px;
   outline: transparent;
   border-radius: 0;
-
 }
 
 input::placeholder{
-  color: rgb(172, 172, 172)
+  color: var(--main-bg-color-light)
 }
 
 
 
 ul{
-  width: 405px;
+  width: 605px;
   height: initial;
   background: white;
   padding: 0;
   margin: 0;
   list-style: none;
+  border: 2px solid var(--effect-color);
+  border-top: none;
+  background-color: var(--main-bg-color-dark);
+  visibility: hidden;
+  opacity: 0;
+}
+
+ul.clicked{
+  visibility: visible;
+  opacity: 1;
 }
 
 li{
@@ -120,10 +152,15 @@ li{
   margin: 0;
   position: relative;
   border-radius: none;
+  background-color: var(--main-bg-color-dark);
+
 }
 
 button.search-btn{
-  background-color: white;
+  font-family: var(--main-font);
+  color: var(--main-search-color);
+  background: none;
+  font-size: 1.3rem;
   height: inherit;
   width: inherit;
   padding: 0;
@@ -133,15 +170,12 @@ button.search-btn{
   text-align: left;
   cursor: pointer;
   padding: 10px 5px;
+  transition: all .15s ease-out;
 }
 
 button.search-btn:hover{
-  background: whitesmoke;
+  background: var(--main-bg-color-light);
 }
-
-
-
-
 
 
 
@@ -150,11 +184,66 @@ h1{
   padding: 0;
   margin: 0;
   font-size: 3.5rem;
-  color: rgb(63, 63, 63);
-  font-family: 'Courgette', cursive;
+  color: var(--main-text-color-dark);
+  font-family: var(--main-font);
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.about-page-main{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 300;
+  visibility: hidden;
+  opacity: none;
+  backdrop-filter: blur(11px);
+  font-family: var(--main-font);
+  color: var(--main-text-color-light);
+}
+
+.about-page-main h2{
+  font-size: 3rem;
+  color: var(--main-text-color-dark);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.about-page-main p{
+  font-size: 1.5rem;
+  color: var(--main-text-color-dark);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  margin: 2rem 0;
+}
+
+.about-page-main a{
+  margin-top: 8rem;
+  font-size: 1.2rem;
+  color: var(--main-text-color-dark);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.about-page-main a:hover{
+  color: #0000EE;
+}
+
+
+
+
+.about-page-main.clicked{
+  visibility: visible;
+  opacity: 1;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
+
+
+/* All mapbox related below */
 
 
 .mapboxgl-container{
@@ -176,17 +265,19 @@ h1{
 }
 
 .marker-btn:hover{
-  background: rgba(64,64,64,0.44);
-box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
+  background: var(--effect-color);
 -webkit-box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
 -moz-box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
+box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
+
 }
 
 .marker-btn.clicked{
   background: rgba(0,0,0,.3);
-box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
 -webkit-box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
 -moz-box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
+box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
+
 }
 
 
@@ -200,7 +291,7 @@ box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
 
 .mapboxgl-popup {
   transition: all .2s ease-in;
-  z-index: 1000;
+  z-index: 200;
 }
 .mapboxgl-popup-close-button {
   color: white;
@@ -213,7 +304,7 @@ box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
 .mapboxgl-popup-content {
   font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
   padding: 0;
-  width: 300px;
+  width: 450px;
 }
 
 .mapboxgl-popup-content-wrapper {
@@ -221,12 +312,13 @@ box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
 }
 
 .mapboxgl-popup-content h3 {
-  background:#4e423c;
+  background:#61524a;
+  font-size: 1.3rem;
   margin: 0;
   display: block;
   padding: 10px;
   border-radius: 3px 3px 0 0;
-  font-family: 'Courgette', cursive;
+  font-family: var(--main-font);
   color: #fff;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 
@@ -237,7 +329,7 @@ box-shadow: 0px 2px 15px 5px rgba(64,64,64,0.66);
 
 .mapboxgl-popup-content p {
   margin: 10px;
-  font-family: 'Courgette', cursive;
+  font-family: var(--main-font);
 
 }
 

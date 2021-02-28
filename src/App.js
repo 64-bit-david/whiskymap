@@ -4,18 +4,14 @@ import React, { useState, useEffect } from 'react'
 import ReactMapGl, { Marker, Popup, NavigationControl, FullscreenControl } from "react-map-gl";
 import * as distilleries from "./data/dist-locations.json";
 import Header from './components/Header';
+import DropSearch from './components/Drop-Search';
 import About from './components/About';
-
-
 
 
 const navControlStyle = {
   left: 10,
   top: 10
 };
-
-
-
 
 
 const App = () => {
@@ -34,8 +30,7 @@ const App = () => {
 
   const [distilleryListNames, setDistilleryListNames] = useState([]);
 
-
-
+  const [aboutState, setAboutState] = useState(false);
 
 
 
@@ -61,21 +56,32 @@ const App = () => {
 
 
 
+  const AboutLink = () => {
+    return (
+      <div className="about-btn-container">
+        <button
+          className="about-btn"
+          onClick={() => setAboutState(!aboutState)}>About</button>
+      </div>
+    )
+  }
+
+
+
 
   return (
     <div className="main-container">
       <div className="nav">
         <Header />
-        <About distilleryList={distilleryList} distilleryListNames={distilleryListNames} />
+        <DropSearch distilleryList={distilleryList} distilleryListNames={distilleryListNames} />
       </div>
       <div className="map-container">
+
         <ReactMapGl
           {...viewport}
           mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
           onViewportChange={(viewport => { setViewport(viewport) })}
           mapStyle="mapbox://styles/vdiad/ckkq0g4201s4r17peswejsg82"
-
-        // pitch="2"
         >
           {distilleries.features.map(distillery => {
             return (
@@ -105,10 +111,11 @@ const App = () => {
               </ Popup>
             </div>
           )}
-
           <NavigationControl style={navControlStyle} />
         </ReactMapGl>
       </div>
+      {AboutLink()}
+      <About aboutState={aboutState} setAboutState={setAboutState} />
     </div>
   )
 }
