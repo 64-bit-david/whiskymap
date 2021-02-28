@@ -325,7 +325,7 @@
     {
       "type": "Feature",
       "properties": {
-        "1": "Deanston Distillery"
+        "NAME": "Deanston Distillery"
       },
       "geometry": {
         "coordinates": [
@@ -489,20 +489,6 @@
         "type": "Point"
       },
       "id": "7a47845af7347365f98f0d803a48dedb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "1": "Deanston Distillery"
-      },
-      "geometry": {
-        "coordinates": [
-          -4.073317,
-          56.190156
-        ],
-        "type": "Point"
-      },
-      "id": "7bce59744be25c53e9ba552cf52315fb"
     },
     {
       "type": "Feature",
@@ -786,18 +772,6 @@
     },
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          -3.210916,
-          57.530104
-        ],
-        "type": "Point"
-      },
-      "id": "be237ca87adeabfe9aca926244d2ce70"
-    },
-    {
-      "type": "Feature",
       "properties": {
         "NAME": "Pulteney Distillery",
         "YEAR": 1899,
@@ -895,18 +869,6 @@
         "type": "Point"
       },
       "id": "d46e51166b5ef02b2631de97198c3fd8"
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          -3.210927,
-          57.530104
-        ],
-        "type": "Point"
-      },
-      "id": "d95e1b42878b4a3c0897581f0313c939"
     },
     {
       "type": "Feature",

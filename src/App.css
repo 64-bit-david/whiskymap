@@ -8,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 
@@ -43,30 +44,41 @@ body {
   color: rgb(44, 44, 44);
 }
 
+.drop-btn.clicked{
+  transform: rotate(180deg);
+}
 
-
-.drop-btn:hover{
+.drop-btn-container:hover{
   transform: scale(1.1);
 }
 
 
+.about-btn-link, .input{
+transform: translateY( -8rem);
+transition: all .2s ease-in ;
 
+}
 
+.about-btn-link.clicked, .input.clicked{
+  transform: translateY(0);
+}
 
 .about-link{
   font-family: 'Courgette', cursive;
+   color: rgb(63, 63, 63);
   cursor: pointer;
   padding: .25rem .5rem;
   font-size: 1.5rem;
   height: inherit;
   width: inherit;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-
-
 }
+
 .about-link:hover{
 text-decoration: underline;  
 }
+
+
 
 .input{
   height: inherit;
@@ -76,16 +88,58 @@ text-decoration: underline;
 .input input {
   font-family: 'Courgette', cursive; 
   height: inherit;
-  border: 1px solid rgb(63, 63, 63);
-  width: 350px;
+  border: none;
+  width: 400px;
   font-size: 1.1rem;
-  padding: 0 .5rem;
+  padding: 0;
+  padding-left: 5px;
   outline: transparent;
+  border-radius: 0;
+
 }
 
 input::placeholder{
-  color: rgb(63, 63, 63)
+  color: rgb(172, 172, 172)
 }
+
+
+
+ul{
+  width: 405px;
+  height: initial;
+  background: white;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li{
+  width: inherit;
+  height: inherit;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  border-radius: none;
+}
+
+button.search-btn{
+  background-color: white;
+  height: inherit;
+  width: inherit;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+
+button.search-btn:hover{
+  background: whitesmoke;
+}
+
+
 
 
 

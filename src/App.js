@@ -18,7 +18,6 @@ const navControlStyle = {
 
 
 
-
 const App = () => {
   const [viewport, setViewport] = useState({
     latitude: 56.770720743612365,
@@ -31,18 +30,33 @@ const App = () => {
 
   const [selectedDistillery, setSelectedDistillery] = useState(null);
 
+  const [distilleryList, setDistilleryList] = useState([]);
+
+  const [distilleryListNames, setDistilleryListNames] = useState([]);
+
+
+
+
 
 
   useEffect(() => {
+    setDistilleryList([...distilleries.features])
+    const distNameArray = distilleries.features.map(distillery => {
+      return distillery.properties.NAME
+    })
+    setDistilleryListNames(distNameArray)
     const listener = (e) => {
       if (e.key === 'Escape') {
         setSelectedDistillery(null);
       }
     }
     window.addEventListener('keydown', listener);
+
     return () => {
       window.removeEventListener('keydown', listener);
     }
+
+
   }, [])
 
 
@@ -52,7 +66,7 @@ const App = () => {
     <div className="main-container">
       <div className="nav">
         <Header />
-        <About />
+        <About distilleryList={distilleryList} distilleryListNames={distilleryListNames} />
       </div>
       <div className="map-container">
         <ReactMapGl
