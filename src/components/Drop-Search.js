@@ -1,8 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { FlyToInterpolator } from 'react-map-gl';
+import * as d3 from 'd3-ease';
 
-const About = ({ distilleryList, distilleryListNames, setSelectedDistillery }) => {
+const About = ({
+  distilleryList,
+  setSelectedDistillery,
+  viewport,
+  setViewport
+}) => {
 
   const [navState, setNavState] = useState(false);
 
@@ -10,10 +17,22 @@ const About = ({ distilleryList, distilleryListNames, setSelectedDistillery }) =
 
   const [userInput, setUserInput] = useState('');
 
-  const [hideSearchList, setHideInputList] = useState(true);
+
+  //zooms into the clicked distilleries location
+  const goToDistillery = (long, lat) => {
+    setViewport({
+      ...viewport,
+      longitude: long,
+      latitude: lat,
+      zoom: 12,
+      transitionDuration: 2000,
+      transitionInterpolator: new FlyToInterpolator(),
+      transitionEasing: d3.easeCubic
+    })
+  }
 
 
-
+  //as user types in searchbar, creates an array of distilleries where name matches user input
   useEffect(() => {
     if (userInput.length > 0) {
       const results = distilleryList.filter(distillery => {
@@ -25,7 +44,7 @@ const About = ({ distilleryList, distilleryListNames, setSelectedDistillery }) =
 
 
   const onChange = (e) => {
-    setUserInput(e.target.value);
+
   }
 
 
@@ -57,6 +76,10 @@ const About = ({ distilleryList, distilleryListNames, setSelectedDistillery }) =
                   onClick={() => {
                     setSelectedDistillery(distillery)
                     setUserInput('');
+                    goToDistillery(
+                      distillery.geometry.coordinates[0],
+                      distillery.geometry.coordinates[1],
+                    )
                   }}
                 >
                   {distillery.properties.NAME}
@@ -77,7 +100,7 @@ const About = ({ distilleryList, distilleryListNames, setSelectedDistillery }) =
         <input
           aria-label="Search for a distillery"
           placeholder="Search for a distillery..."
-          onChange={(e) => onChange(e)}
+          onChange={(e) => setUserInput(e.target.value)}
           value={userInput} />
         {searchList()}
 

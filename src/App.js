@@ -28,7 +28,6 @@ const App = () => {
 
   const [distilleryList, setDistilleryList] = useState([]);
 
-  const [distilleryListNames, setDistilleryListNames] = useState([]);
 
   const [aboutState, setAboutState] = useState(false);
 
@@ -41,7 +40,6 @@ const App = () => {
     const distNameArray = distilleries.features.map(distillery => {
       return distillery.properties.NAME
     })
-    setDistilleryListNames(distNameArray)
     const listener = (e) => {
       if (e.key === 'Escape') {
         setSelectedDistillery(null);
@@ -77,8 +75,9 @@ const App = () => {
         <Header />
         <DropSearch
           distilleryList={distilleryList}
-          distilleryListNames={distilleryListNames}
-          setSelectedDistillery={setSelectedDistillery} />
+          setSelectedDistillery={setSelectedDistillery}
+          viewport={viewport}
+          setViewport={setViewport} />
       </div>
 
 
