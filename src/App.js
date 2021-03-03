@@ -1,7 +1,7 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './App.css';
 import React, { useState, useEffect } from 'react'
-import ReactMapGl, { Marker, Popup, NavigationControl, FullscreenControl } from "react-map-gl";
+import ReactMapGl, { Marker, Popup, NavigationControl, FlyToInterpolator } from "react-map-gl";
 import * as distilleries from "./data/dist-locations.json";
 import Header from './components/Header';
 import DropSearch from './components/Drop-Search';
@@ -31,6 +31,8 @@ const App = () => {
   const [distilleryListNames, setDistilleryListNames] = useState([]);
 
   const [aboutState, setAboutState] = useState(false);
+
+
 
 
 
@@ -73,10 +75,14 @@ const App = () => {
     <div className="main-container">
       <div className="nav">
         <Header />
-        <DropSearch distilleryList={distilleryList} distilleryListNames={distilleryListNames} />
+        <DropSearch
+          distilleryList={distilleryList}
+          distilleryListNames={distilleryListNames}
+          setSelectedDistillery={setSelectedDistillery} />
       </div>
-      <div className="map-container">
 
+
+      <div className="map-container">
         <ReactMapGl
           {...viewport}
           mapboxApiAccessToken={process.env.REACT_APP_API_KEY}

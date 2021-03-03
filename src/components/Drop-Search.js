@@ -2,13 +2,17 @@ import React, { useState, useRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 
-const About = ({ distilleryList, distilleryListNames }) => {
+const About = ({ distilleryList, distilleryListNames, setSelectedDistillery }) => {
 
   const [navState, setNavState] = useState(false);
 
   const [distilleriesToShow, setDistilleriesToShow] = useState([]);
 
   const [userInput, setUserInput] = useState('');
+
+  const [hideSearchList, setHideInputList] = useState(true);
+
+
 
   useEffect(() => {
     if (userInput.length > 0) {
@@ -47,7 +51,17 @@ const About = ({ distilleryList, distilleryListNames }) => {
         <ul className={`${navState && 'clicked'}`}>
           {distilleriesToShow.slice(0, 6).map(distillery => {
             return (
-              <li key={distillery.id}><button className="search-btn">{distillery.properties.NAME}</button></li>
+              <li key={distillery.id}>
+                <button
+                  className="search-btn"
+                  onClick={() => {
+                    setSelectedDistillery(distillery)
+                    setUserInput('');
+                  }}
+                >
+                  {distillery.properties.NAME}
+                </button>
+              </li>
             )
           })}
         </ul>
