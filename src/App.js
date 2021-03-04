@@ -2,8 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './App.css';
+import mapboxgl from 'mapbox-gl';
 import React, { useState, useEffect } from 'react'
-import ReactMapGl, { Marker, Popup, NavigationControl, FlyToInterpolator } from "react-map-gl";
+import ReactMapGl, { Marker, Popup, NavigationControl } from "react-map-gl";
 import * as distilleries from "./data/dist-locations.json";
 import Header from './components/Header';
 import DropSearch from './components/Drop-Search';
@@ -145,5 +146,5 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
 
