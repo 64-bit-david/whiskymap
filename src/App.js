@@ -121,16 +121,23 @@ const App = () => {
                 latitude={selectedDistillery.geometry.coordinates[1]}
                 longitude={selectedDistillery.geometry.coordinates[0]}
                 onClose={() => { setSelectedDistillery(null) }}
+                closeOnClick={false}
                 className="popup-styling"
               >
                 <h3>{selectedDistillery.properties.NAME}</h3>
                 <p>Founded in: {selectedDistillery.properties.YEAR}</p>
                 <p>Region: {selectedDistillery.properties.REGION}</p>
-                <p>Website: </p>
+                <p>Website:
+                  <a href={selectedDistillery.properties.WEBSITE}>{selectedDistillery.properties.WEBSITE}</a>
+                </p>
+                <p>Owned By: {selectedDistillery.properties.OWNER}</p>
               </ Popup>
             </div>
           )}
-          <NavigationControl style={navControlStyle} className="nav-control" />
+          <NavigationControl
+            style={navControlStyle}
+            className={`nav-control ${aboutState ? 'hide' : ''}`}
+          />
         </ReactMapGl>
       </div>
       <About aboutState={aboutState} setAboutState={setAboutState} />

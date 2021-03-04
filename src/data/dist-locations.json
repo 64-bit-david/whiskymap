@@ -3,7 +3,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Dufftown Distillery"
+        "NAME": "Glenfiddich Distillery",
+        "YEAR": 1886,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.glenfiddich.com/distillery/",
+        "OWNER": "William Grant & Sons"
       },
       "geometry": {
         "coordinates": [
@@ -17,12 +21,16 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Jura Distillery"
+        "NAME": "Jura Distillery",
+        "YEAR": 1810,
+        "REGION": "Islands",
+        "WEBSITE": "https://jurawhisky.com/",
+        "OWNER": "White & Mackay"
       },
       "geometry": {
         "coordinates": [
-          -5.951593,
-          55.832669
+          -3.129221,
+          57.454754777895054
         ],
         "type": "Point"
       },
@@ -31,7 +39,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Scapa Distillery"
+        "NAME": "Scapa Distillery",
+        "YEAR": 1885,
+        "REGION": "Islands",
+        "WEBSITE": "https://www.scapawhisky.com/",
+        "OWNER": "Pernod Ricard"
       },
       "geometry": {
         "coordinates": [
@@ -45,7 +57,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glen Ord Distillary"
+        "NAME": "Glen Ord Distillary",
+        "YEAR": 1838,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.malts.com/en-row/distilleries/the-singleton-of-glen-ord",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -59,7 +75,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Benromach Distillery"
+        "NAME": "Benromach Distillery",
+        "YEAR": 1898,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.benromach.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -73,7 +93,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Springbank Distillery"
+        "NAME": "Springbank Distillery",
+        "YEAR": 1828,
+        "REGION": "Campbeltown",
+        "WEBSITE": "http://springbank.scot/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -87,7 +111,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glenglassaugh Distillery"
+        "NAME": "Glenglassaugh Distillery",
+        "YEAR": 1875,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.glenglassaugh.com/",
+        "OWNER": "Brown Formandi"
       },
       "geometry": {
         "coordinates": [
@@ -101,7 +129,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Royal Lochnagar Distillery"
+        "NAME": "Royal Lochnagar Distillery",
+        "YEAR": 1845,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.malts.com/en-row/distilleries/royal-lochnagar",
+        "OWNER": "Speyside"
       },
       "geometry": {
         "coordinates": [
@@ -115,7 +147,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glengoyne Distillery"
+        "NAME": "Glengoyne Distillery",
+        "YEAR": 1833,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.glengoyne.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -129,7 +165,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glen Grant Distillary"
+        "NAME": "Glen Grant Distillary",
+        "YEAR": 1840,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.glengrant.com/gb/en/",
+        "OWNER": "Campari"
       },
       "geometry": {
         "coordinates": [
@@ -143,7 +183,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Tamdhu Distillery"
+        "NAME": "Tamdhu Distillery",
+        "YEAR": 1897,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.tamdhu.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -157,7 +201,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Torabhaig Distillery"
+        "NAME": "Torabhaig Distillery",
+        "YEAR": 2017,
+        "REGION": "Islands",
+        "WEBSITE": "https://www.torabhaig.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -171,7 +219,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "The Balvenie Distillery"
+        "NAME": "The Balvenie Distillery",
+        "YEAR": 1812,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.thebalvenie.com/",
+        "OWNER": "William Grant & Sons"
       },
       "geometry": {
         "coordinates": [
@@ -185,7 +237,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Cragganmore Distillery"
+        "NAME": "Cragganmore Distillery",
+        "YEAR": 1869,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.malts.com/en-row/distilleries/cragganmore",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -199,7 +255,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Royal Brackla Distillery"
+        "NAME": "Royal Brackla Distillery",
+        "YEAR": 1812,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.royalbrackla.com/",
+        "OWNER": "Bacardi"
       },
       "geometry": {
         "coordinates": [
@@ -213,7 +273,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Clynelish Distillery"
+        "NAME": "Clynelish Distillery",
+        "YEAR": 1819,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.malts.com/en-row/distilleries/clynelish",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -227,7 +291,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Mortlach Distillery"
+        "NAME": "Mortlach Distillery",
+        "YEAR": 1823,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.malts.com/en-row/brands/mortlach",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -241,7 +309,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glenmorangie Distillery"
+        "NAME": "Glenmorangie Distillery",
+        "YEAR": 1843,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.glenmorangie.com/",
+        "OWNER": "Louis Vuitton Moët Hennessy"
       },
       "geometry": {
         "coordinates": [
@@ -255,7 +327,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Bunnahabhain Distillery"
+        "NAME": "Bunnahabhain Distillery",
+        "YEAR": 1881,
+        "REGION": "Islay",
+        "WEBSITE": "https://bunnahabhain.com/",
+        "OWNER": "Distell Group"
       },
       "geometry": {
         "coordinates": [
@@ -269,7 +345,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Girvan Distillery"
+        "NAME": "Girvan Distillery",
+        "YEAR": 1963,
+        "REGION": "Lowland",
+        "WEBSITE": "http://www.thegirvanpatentstill.com/",
+        "OWNER": "William Grant and Sons"
       },
       "geometry": {
         "coordinates": [
@@ -283,7 +363,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "GlenDronach Distillary"
+        "NAME": "GlenDronach Distillary",
+        "YEAR": 1826,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.glendronachdistillery.com/",
+        "OWNER": "Brown–Forman"
       },
       "geometry": {
         "coordinates": [
@@ -297,7 +381,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Strathisla Distillery"
+        "NAME": "Strathisla Distillery",
+        "YEAR": 1786,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.chivas.com/en-GB/visit-strathisla",
+        "OWNER": "Pernod Ricard"
       },
       "geometry": {
         "coordinates": [
@@ -311,7 +399,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "The Borders Distillery"
+        "NAME": "The Borders Distillery",
+        "YEAR": 2018,
+        "REGION": "Lowland",
+        "WEBSITE": "https://www.thebordersdistillery.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -325,7 +417,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Deanston Distillery"
+        "NAME": "Deanston Distillery",
+        "YEAR": 1965,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.deanstonmalt.com/",
+        "OWNER": "Distell Group"
       },
       "geometry": {
         "coordinates": [
@@ -336,24 +432,15 @@
       },
       "id": "5ab556c1d474e1992594cf2a831c06aa"
     },
+    
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Pittyvaich Distillery"
-      },
-      "geometry": {
-        "coordinates": [
-          -3.131856,
-          57.436814
-        ],
-        "type": "Point"
-      },
-      "id": "5b3be0073db656012943f13788cf968a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "NAME": "Glencadam Distillery"
+        "NAME": "Glencadam Distillery",
+        "YEAR": 1825,
+        "REGION": "Higland",
+        "WEBSITE": "https://www.glencadamwhisky.com/",
+        "OWNER": " Angus Dundee"
       },
       "geometry": {
         "coordinates": [
@@ -367,7 +454,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Isle of Raasay Distillery"
+        "NAME": "Isle of Raasay Distillery",
+        "YEAR": 2016,
+        "REGION": "Islands",
+        "WEBSITE": "https://raasaydistillery.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -381,7 +472,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Fettercairn Distillery"
+        "NAME": "Fettercairn Distillery",
+        "YEAR": 1824,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.fettercairnwhisky.com/",
+        "OWNER": "Whyte & Mackay"
       },
       "geometry": {
         "coordinates": [
@@ -395,7 +490,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Tullibardine Distillery"
+        "NAME": "Tullibardine Distillery",
+        "YEAR": 1949,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.tullibardine.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -409,7 +508,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "The Clydeside Distllery"
+        "NAME": "The Clydeside Distllery",
+        "YEAR": 2017,
+        "REGION": "Lowland",
+        "WEBSITE": "https://www.theclydeside.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -423,7 +526,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Kingsbarn Distillery"
+        "NAME": "Kingsbarn Distillery",
+        "YEAR": 2014,
+        "REGION": "Lowland",
+        "WEBSITE": "https://www.kingsbarnsdistillery.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -437,7 +544,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "The Glenlivet Distillery"
+        "NAME": "The Glenlivet Distillery",
+        "YEAR": 1824,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.theglenlivet.com/",
+        "OWNER": "Pernod Ricard"
       },
       "geometry": {
         "coordinates": [
@@ -451,7 +562,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Lindores Abbey Distillery"
+        "NAME": "Lindores Abbey Distillery",
+        "YEAR": 2017,
+        "REGION": "Lowlands",
+        "WEBSITE": "https://lindoresabbeydistillery.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -465,7 +580,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Lochranza Distillery"
+        "NAME": "Arran  Distillery",
+        "YEAR": 1995,
+        "REGION": "Islands",
+        "WEBSITE": "https://www.arranwhisky.com/our-distillery",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -479,7 +598,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Oban Distillery"
+        "NAME": "Oban Distillery",
+        "YEAR": 1794,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.malts.com/en-gb/distilleries/oban",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -493,7 +616,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Teaninich Distillery"
+        "NAME": "Teaninich Distillery",
+        "YEAR": 1817,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.malts.com/en-gb/brands/teaninich",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -507,7 +634,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Tobermory Distillery"
+        "NAME": "Tobermory Distillery",
+        "YEAR": 1798,
+        "REGION": "Islands",
+        "WEBSITE": "https://tobermorydistillery.com/",
+        "OWNER": "Distell Group"
       },
       "geometry": {
         "coordinates": [
@@ -521,7 +652,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Highland Park Distillery"
+        "NAME": "Highland Park Distillery",
+        "YEAR": 1789,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.highlandparkwhisky.com/",
+        "OWNER": "Edrington Group"
       },
       "geometry": {
         "coordinates": [
@@ -535,7 +670,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Craigellachie Distillery"
+        "NAME": "Craigellachie Distillery",
+        "YEAR": 1891,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.craigellachie.com/",
+        "OWNER": "Bacardi"
       },
       "geometry": {
         "coordinates": [
@@ -549,7 +688,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Abelour Distillery"
+        "NAME": "Abelour Distillery",
+        "YEAR": 1879,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.aberlour.com/",
+        "OWNER": "Pernod Ricard"
       },
       "geometry": {
         "coordinates": [
@@ -563,7 +706,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Cardhu Distillery"
+        "NAME": "Cardhu Distillery",
+        "YEAR": 1824,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.malts.com/en-row/distilleries/cardhu",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -577,7 +724,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Laag Distillery"
+        "NAME": "Laag Distillery",
+        "YEAR": 2017,
+        "REGION": "Islands",
+        "WEBSITE": "https://www.laggwhisky.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -591,7 +742,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Talisker Distillery"
+        "NAME": "Talisker Distillery",
+        "YEAR": 1830,
+        "REGION": "Island",
+        "WEBSITE": "https://www.malts.com/en-row/brands/talisker",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -605,21 +760,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Cameronbridge Distillery"
-      },
-      "geometry": {
-        "coordinates": [
-          -3.055897,
-          56.188911
-        ],
-        "type": "Point"
-      },
-      "id": "9356ced0b4b0e94dbf9f1a4bf3564f02"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "NAME": "The Macallan Distillery"
+        "NAME": "The Macallan Distillery",
+        "YEAR": 1824,
+        "REGION": "Speyside ",
+        "WEBSITE": "https://www.themacallan.com/",
+        "OWNER": "Edrington"
       },
       "geometry": {
         "coordinates": [
@@ -633,7 +778,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glen Moray Distillery"
+        "NAME": "Glen Moray Distillery",
+        "YEAR": 1897,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.glenmoray.com/",
+        "OWNER": "La Martiniquaise"
       },
       "geometry": {
         "coordinates": [
@@ -647,7 +796,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glenkinchie Distillery"
+        "NAME": "Glenkinchie Distillery",
+        "YEAR": 1837,
+        "REGION": "Lowland",
+        "WEBSITE": "https://www.malts.com/en-row/distilleries/glenkinchie",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -661,7 +814,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "The Glenallachie Distillery"
+        "NAME": "The Glenallachie Distillery",
+        "YEAR": 1967,
+        "REGION": "Speyside",
+        "WEBSITE": "https://theglenallachie.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -675,7 +832,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Dalwhinnie Distillery"
+        "NAME": "Dalwhinnie Distillery",
+        "YEAR": 1898,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.malts.com/en-row/distilleries/dalwhinnie",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -689,7 +850,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Bruichladdich Distillery"
+        "NAME": "Bruichladdich Distillery",
+        "YEAR": 1881,
+        "REGION": "Islay",
+        "WEBSITE": "https://www.bruichladdich.com/",
+        "OWNER": "Rémy Cointreau"
       },
       "geometry": {
         "coordinates": [
@@ -703,7 +868,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Tomantin Distillery"
+        "NAME": "Tomantin Distillery",
+        "YEAR": 1897,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.tomatin.com/",
+        "OWNER": "Takara Shuzo Corp."
       },
       "geometry": {
         "coordinates": [
@@ -717,7 +886,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Ardbeg Distillery"
+        "NAME": "Ardbeg Distillery",
+        "YEAR": 1815,
+        "REGION": "Islay",
+        "WEBSITE": "https://www.ardbeg.com/",
+        "OWNER": "Louis Vuitton Moët Hennessy"
       },
       "geometry": {
         "coordinates": [
@@ -731,7 +904,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Bowmore Distillery"
+        "NAME": "Bowmore Distillery",
+        "YEAR": 1779,
+        "REGION": "Islay",
+        "WEBSITE": "https://www.bowmore.com/",
+        "OWNER": "Beam Suntory"
       },
       "geometry": {
         "coordinates": [
@@ -745,7 +922,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Bladnoch Distillery"
+        "NAME": "Bladnoch Distillery",
+        "YEAR": 1817,
+        "REGION": "Lowland",
+        "WEBSITE": "https://bladnoch.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -759,7 +940,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Lagavulin Distillery"
+        "NAME": "Lagavulin Distillery",
+        "YEAR": 1816,
+        "REGION": "Islay",
+        "WEBSITE": "https://www.malts.com/en-gb/brands/lagavulin",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -774,8 +959,10 @@
       "type": "Feature",
       "properties": {
         "NAME": "Pulteney Distillery",
-        "YEAR": 1899,
-        "REGION": "Highland"
+        "YEAR": 1826,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.oldpulteney.com/",
+        "OWNER": "InterBev"
       },
       "geometry": {
         "coordinates": [
@@ -789,7 +976,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Caol Ila Distillery"
+        "NAME": "Caol Ila Distillery",
+        "YEAR": 1846,
+        "REGION": "Islay",
+        "WEBSITE": "https://www.malts.com/en-gb/distilleries/caol-ila",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -803,7 +994,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Dalmore Distillery"
+        "NAME": "Dalmore Distillery",
+        "YEAR": 1839,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.thedalmore.com/",
+        "OWNER": "Whyte & Mackay"
       },
       "geometry": {
         "coordinates": [
@@ -817,7 +1012,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glen Scotia Distillery"
+        "NAME": "Glen Scotia Distillery",
+        "YEAR": 1832,
+        "REGION": "Campbeltown",
+        "WEBSITE": "https://www.glenscotia.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -831,7 +1030,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Nc'nean Distillery"
+        "NAME": "Nc'nean Distillery",
+        "YEAR": 2013,
+        "REGION": "Highland",
+        "WEBSITE": "https://ncnean.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -845,7 +1048,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Eden Mill"
+        "NAME": "Eden Mill",
+        "YEAR": 2014,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.edenmill.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -859,7 +1066,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Ben Nevis Distillery"
+        "NAME": "Ben Nevis Distillery",
+        "YEAR": 1825,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.bennevisdistillery.com/",
+        "OWNER": "Nikka"
       },
       "geometry": {
         "coordinates": [
@@ -873,7 +1084,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glen Garioch Distillery"
+        "NAME": "Glen Garioch Distillery",
+        "YEAR": 1797,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.glengarioch.com/",
+        "OWNER": "Morrison Bowmore Distillers"
       },
       "geometry": {
         "coordinates": [
@@ -887,7 +1102,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Balbair Distillery"
+        "NAME": "Balbair Distillery",
+        "YEAR": 1790,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.balblair.com/",
+        "OWNER": "InterBev"
       },
       "geometry": {
         "coordinates": [
@@ -901,7 +1120,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Blair Athol Distillery"
+        "NAME": "Blair Athol Distillery",
+        "YEAR": 1798,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.malts.com/en-gb/distilleries/blair-athol",
+        "OWNER": "Diageo"
       },
       "geometry": {
         "coordinates": [
@@ -915,7 +1138,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Allt-a-Bhainne Distillery"
+        "NAME": "Allt-a-Bhainne Distillery",
+        "YEAR": 1975,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.allt-a-bhainne.com/",
+        "OWNER": "Pernod Ricard"
       },
       "geometry": {
         "coordinates": [
@@ -929,7 +1156,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Laphroaig Distillery"
+        "NAME": "Laphroaig Distillery",
+        "YEAR": 1815,
+        "REGION": "Islay",
+        "WEBSITE": "https://www.laphroaig.com/",
+        "OWNER": "Beam Suntory"
       },
       "geometry": {
         "coordinates": [
@@ -943,7 +1174,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Strathearn Distillery"
+        "NAME": "Strathearn Distillery",
+        "YEAR": 2013,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.strathearndistillery.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -957,7 +1192,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Edradour Distillery"
+        "NAME": "Edradour Distillery",
+        "YEAR": 2002,
+        "REGION": "Highland",
+        "WEBSITE": "https://www.edradour.com/",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -971,7 +1210,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Glenrinnes Distillery"
+        "NAME": "Glenrinnes Distillery",
+        "YEAR": 2018,
+        "REGION": "Speyside",
+        "WEBSITE": "https://www.eight-lands.com/the-distillery",
+        "OWNER": "Independent"
       },
       "geometry": {
         "coordinates": [
@@ -985,7 +1228,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Auchentoshan Distillery"
+        "NAME": "Auchentoshan Distillery",
+        "YEAR": 1823,
+        "REGION": "Lowland",
+        "WEBSITE": "https://www.auchentoshan.com/",
+        "OWNER": "Morrison Bowmore Distillers"
       },
       "geometry": {
         "coordinates": [
@@ -999,7 +1246,11 @@
     {
       "type": "Feature",
       "properties": {
-        "NAME": "Aberlour Distillery"
+        "NAME": "Aberlour Distillery",
+        "YEAR": 1879,
+        "REGION": "Speyside",
+        "WEBSITE": "www.aberlour.com",
+        "OWNER": "Pernod Ricard"
       },
       "geometry": {
         "coordinates": [
@@ -1009,6 +1260,41 @@
         "type": "Point"
       },
       "id": "fcb4e630bf05bd4f15a00e9922133e27"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Abhainn Dearg Distillery",
+        "WEBSITE": "https://abhainndeargdistillery.co.uk/",
+        "REGION": "Islands",
+        "OWNER": "Independent"
+
+      },
+      "geometry": {
+        "coordinates": [
+          -7.044644,
+          58.170809
+        ],
+        "type": "Point"
+      },
+      "id": "1f614a418dd28b81b2f5b81f355a95ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Glen Wyvis Distillery",
+        "WEBSITE": "https://glenwyvis.com/",
+        "REGION": "Highland",
+        "OWNER": "Independent"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.455595,
+          57.615041
+        ],
+        "type": "Point"
+      },
+      "id": "1b983ecbc0b1b98ecbbe6cdf2a507997"
     }
   ],
   "type": "FeatureCollection"

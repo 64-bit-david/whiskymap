@@ -25,7 +25,7 @@ const DropSearch = ({
       ...viewport,
       longitude: long,
       latitude: lat,
-      zoom: 12,
+      zoom: 11,
       transitionDuration: 2000,
       transitionInterpolator: new FlyToInterpolator(),
       transitionEasing: d3.easeCubic
@@ -80,14 +80,12 @@ const DropSearch = ({
   const searchInput = () => {
     return (
       <div className={`input ${navState && 'clicked'}`}>
-
         <input
           aria-label="Search for a distillery"
           placeholder="Search for a distillery..."
           onChange={(e) => setUserInput(e.target.value)}
           value={userInput} />
         {searchList()}
-
       </div>
     )
   }
@@ -101,4 +99,4 @@ const DropSearch = ({
   )
 }
 
-export default DropSearch
+export default DropSearch;
