@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './App.css';
 import React, { useState, useEffect } from 'react'
@@ -9,8 +11,8 @@ import About from './components/About';
 
 
 const navControlStyle = {
-  left: 10,
-  top: 10
+  left: 20,
+  top: 20,
 };
 
 
@@ -28,41 +30,46 @@ const App = () => {
 
   const [distilleryList, setDistilleryList] = useState([]);
 
-
   const [aboutState, setAboutState] = useState(false);
 
-
+  const [navState, setNavState] = useState(false);
 
 
 
   useEffect(() => {
     setDistilleryList([...distilleries.features])
-    const distNameArray = distilleries.features.map(distillery => {
-      return distillery.properties.NAME
-    })
     const listener = (e) => {
       if (e.key === 'Escape') {
         setSelectedDistillery(null);
       }
     }
     window.addEventListener('keydown', listener);
-
     return () => {
       window.removeEventListener('keydown', listener);
     }
-
-
   }, [])
 
 
 
   const AboutLink = () => {
     return (
-      <div className="about-btn-container">
+      <div className={`about-btn-container ${navState && 'clicked'}`}>
         <button
           className="about-btn"
           onClick={() => setAboutState(!aboutState)}>About</button>
       </div>
+    )
+  }
+
+  const dropBtn = () => {
+    return (
+      <div className={`drop-item-container drop-btn-container ${navState && 'clicked'}`}>
+        <button
+          className={` drop-btn ${navState && 'clicked'}`}
+          onClick={() => { setNavState(!navState) }}
+        >
+          <FontAwesomeIcon icon={faChevronCircleDown} size='lg' />
+        </button></div>
     )
   }
 
@@ -73,11 +80,17 @@ const App = () => {
     <div className="main-container">
       <div className="nav">
         <Header />
+        {dropBtn()}
+        {AboutLink()}
+
         <DropSearch
           distilleryList={distilleryList}
           setSelectedDistillery={setSelectedDistillery}
           viewport={viewport}
-          setViewport={setViewport} />
+          setViewport={setViewport}
+          navState={navState}
+          setNavState={setNavState} />
+
       </div>
 
 
@@ -108,6 +121,7 @@ const App = () => {
                 latitude={selectedDistillery.geometry.coordinates[1]}
                 longitude={selectedDistillery.geometry.coordinates[0]}
                 onClose={() => { setSelectedDistillery(null) }}
+                className="popup-styling"
               >
                 <h3>{selectedDistillery.properties.NAME}</h3>
                 <p>Founded in: {selectedDistillery.properties.YEAR}</p>
@@ -116,10 +130,9 @@ const App = () => {
               </ Popup>
             </div>
           )}
-          <NavigationControl style={navControlStyle} />
+          <NavigationControl style={navControlStyle} className="nav-control" />
         </ReactMapGl>
       </div>
-      {AboutLink()}
       <About aboutState={aboutState} setAboutState={setAboutState} />
     </div>
   )

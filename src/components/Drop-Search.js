@@ -1,21 +1,22 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, createRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { FlyToInterpolator } from 'react-map-gl';
 import * as d3 from 'd3-ease';
 
-const About = ({
+const DropSearch = ({
   distilleryList,
   setSelectedDistillery,
   viewport,
-  setViewport
+  setViewport,
+  navState,
+  setNavState
 }) => {
 
-  const [navState, setNavState] = useState(false);
-
   const [distilleriesToShow, setDistilleriesToShow] = useState([]);
-
   const [userInput, setUserInput] = useState('');
+
+
 
 
   //zooms into the clicked distilleries location
@@ -43,25 +44,6 @@ const About = ({
   }, [userInput])
 
 
-  const onChange = (e) => {
-
-  }
-
-
-  const dropBtn = () => {
-    return (
-
-      <div className={`drop-item-container drop-btn-container ${navState && 'clicked'}`}>
-        <button
-          className={` drop-btn ${navState && 'clicked'}`}
-          onClick={() => { setNavState(!navState) }}
-        >
-          <FontAwesomeIcon icon={faChevronCircleDown} size='lg' />
-        </button></div>
-    )
-  }
-
-
   //add an onclick here that somehow selected the distillery, sets selectedDistillery as well
 
   const searchList = () => {
@@ -72,7 +54,7 @@ const About = ({
             return (
               <li key={distillery.id}>
                 <button
-                  className="search-btn"
+                  className={`search-btn`}
                   onClick={() => {
                     setSelectedDistillery(distillery)
                     setUserInput('');
@@ -80,6 +62,8 @@ const About = ({
                       distillery.geometry.coordinates[0],
                       distillery.geometry.coordinates[1],
                     )
+                    setNavState(false);
+
                   }}
                 >
                   {distillery.properties.NAME}
@@ -110,7 +94,6 @@ const About = ({
 
   return (
     <div className="drop-menu">
-      {dropBtn()}
       {searchInput()}
 
     </div>
@@ -118,4 +101,4 @@ const About = ({
   )
 }
 
-export default About
+export default DropSearch
