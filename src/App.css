@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+ /*variables */
+
 :root{
   --main-font: 'Courgette', cursive;
   --second-font: 'Arial';
@@ -23,6 +25,8 @@ body {
 }
 
 
+/* nav / header */
+
 .nav-control{
   z-index: 1000;
 }
@@ -44,6 +48,8 @@ body {
 .nav h1{
   margin-right: .5rem;
 }
+
+/* Drop Menu */
 .drop-menu{
   display: flex;
   align-items: center;
@@ -66,6 +72,8 @@ body {
   transform: scale(1.2);
 }
 
+
+/* About Link */
 
 
 .about-btn-container{
@@ -96,6 +104,8 @@ body {
   border-bottom: 3px dashed var(--main-text-color-dark);
 }
 
+/* Search Bar */
+
 .input{
   transform: translateY(0);
   transition: all .2s ease-in ;
@@ -118,7 +128,10 @@ body {
   padding-left: 5px;
   outline: transparent;
   border-radius: 0;
+}
 
+.input input:focus {
+  border-color: var(--main-text-color-dark);
 }
 
 .input.clicked{
@@ -133,6 +146,7 @@ input::placeholder{
 }
 
 
+/* Search Results */
 
 ul{
   width: inherit;
@@ -141,7 +155,7 @@ ul{
   padding: .5rem;
   margin: 0;
   list-style: none;
-  border: 3px dashed var(--effect-color);
+  border: 3px dashed var(--main-text-color-dark);
   border-top: none;
   background-color: var(--main-bg-color-light);
   visibility: hidden;
@@ -200,6 +214,9 @@ h1{
   color: var(--main-text-color-dark);
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
+
+
+/* About Component */
 
 .about-page-main{
   position: fixed;
@@ -271,11 +288,6 @@ h1{
   color: var(--main-text-color-dark);
   text-shadow: none;
 }
-
-
-
-
-
 
 .about-page-main.clicked{
   visibility: visible;
@@ -377,6 +389,7 @@ color: var(--main-text-color-dark);
   margin: 10px;
   font-family: var(--main-font);
   font-size: 1.1rem;
+  word-break: break-word;
 
 }
 
@@ -417,7 +430,7 @@ color: var(--main-text-color-dark);
 
 }
 
-/* Mid screen */
+/*  Media Queries */
 @media only screen and (max-width: 1400px){
   .nav{
     left: 6rem;
