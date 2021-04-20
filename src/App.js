@@ -7,7 +7,7 @@ import mapboxgl from 'mapbox-gl';
 import ReactMapGl, { Marker, Popup, NavigationControl } from "react-map-gl";
 import * as distilleries from "./data/dist-locations.json";
 import Header from './components/Header';
-import DropSearch from './components/Drop-Search';
+import DropSearch from './components/DropSearch';
 import About from './components/About';
 
 
@@ -15,6 +15,7 @@ import About from './components/About';
 mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 
 
+//postions the mapbox nav buttons
 const navControlStyle = {
   left: 20,
   top: 20,
@@ -41,6 +42,7 @@ const App = () => {
 
 
 
+  //keypress listener so esc key will set selected distillery to false
   useEffect(() => {
     setDistilleryList([...distilleries.features])
     const listener = (e) => {
@@ -66,6 +68,7 @@ const App = () => {
     )
   }
 
+  //button for mobile to show/hide the search bar
   const dropBtn = () => {
     return (
       <div className={`drop-item-container drop-btn-container ${navState && 'clicked'}`}>
@@ -100,12 +103,17 @@ const App = () => {
 
 
       <div className="map-container">
+
+        {/* Initial setup for the map */}
         <ReactMapGl
           {...viewport}
           mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
           onViewportChange={(viewport => { setViewport(viewport) })}
           mapStyle="mapbox://styles/vdiad/ckkq0g4201s4r17peswejsg82"
         >
+
+          {/* loop through the distilleries json file, each distillery has map coords
+              add a maker on map for each distillery */}
           {distilleries.features.map(distillery => {
             return (
               <Marker key={distillery.id} latitude={distillery.geometry.coordinates[1]} longitude={distillery.geometry.coordinates[0]} >
@@ -120,6 +128,9 @@ const App = () => {
               </ Marker>
             )
           })}
+
+          {/* If a distillery marker is clicked, that distillery is in state */}
+          {/* Render popup that holds distillery information  */}
           {selectedDistillery && (
             <div className="popup">
               <Popup
@@ -139,6 +150,8 @@ const App = () => {
               </ Popup>
             </div>
           )}
+
+          {/* Render built in mapbox naviagtion buttons */}
           <NavigationControl
             style={navControlStyle}
             className={`nav-control ${aboutState ? 'hide' : ''}`}

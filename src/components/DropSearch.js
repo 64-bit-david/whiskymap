@@ -25,6 +25,7 @@ const DropSearch = ({
 
 
   //zooms into the clicked distilleries location
+
   const goToDistillery = (long, lat) => {
     setViewport({
       ...viewport,
@@ -39,7 +40,9 @@ const DropSearch = ({
 
 
 
-  //as user types in searchbar, creates an array of distilleries where name matches user input
+  //as user types in searchbar, sets an array of matching distillery names
+
+
   useEffect(() => {
     if (userInput.length > 0) {
       const results = distilleryList.filter(distillery => {
@@ -54,6 +57,9 @@ const DropSearch = ({
   }, [userInput, distilleryList, setFocusedDistillery]);
 
 
+  //Sets the index for looping through search results as user hits up/down key
+  //some conditions needed to prevent error thrown
+
   useEffect(() => {
     const searchListener = (e) => {
       if (distilleriesToShow.length > 0) {
@@ -61,15 +67,12 @@ const DropSearch = ({
           setKeyScroll(true);
           if (focusedDistillery < distilleriesToShow.length - 1 && focusedDistillery < 5 && focused > 0) {
             setFocusedDistillery(focusedDistillery + 1);
-            // distilleryListSearch.current.children[focusedDistillery].children[0].focus()
           }
         }
         else if (e.key === 'ArrowUp') {
           setKeyScroll(true);
           if (focusedDistillery >= 1) {
             setFocusedDistillery(focusedDistillery - 1);
-            // distilleryListSearch.current.children[focusedDistillery].children[0].focus()
-
           }
         }
       }
@@ -80,8 +83,21 @@ const DropSearch = ({
       setKeyScroll(false)
     }
   }, [distilleriesToShow.length, focusedDistillery, focused]);
+  useEffect(() => {
+    const listener = (e) => {
+      if (e.key === 'Escape') {
+        setUserInput('');
+      }
+    }
+    window.addEventListener('keydown', listener);
+    return () => {
+      window.removeEventListener('keydown', listener);
+    }
+  }, [])
 
 
+
+  //Takes the focused index generated above and applies it to correct list item
 
   useEffect(() => {
     if (distilleriesToShow.length > 0 && keyScroll) {
@@ -98,8 +114,8 @@ const DropSearch = ({
 
 
 
-
-  const searchList = () => {
+  // renders the searchList array into clickable buttons 
+  const renderSearchList = () => {
     if (userInput.length > 0) {
 
       return (
@@ -131,6 +147,8 @@ const DropSearch = ({
     }
   }
 
+
+
   const searchInput = () => {
     return (
       <div className={`input ${navState && 'clicked'}`}>
@@ -143,7 +161,7 @@ const DropSearch = ({
           onBlur={() => {
             setFocusedDistillery(0);
           }} />
-        {searchList()}
+        {renderSearchList()}
       </div>
     )
   }
@@ -151,7 +169,6 @@ const DropSearch = ({
   return (
     <div className="drop-menu">
       {searchInput()}
-
     </div>
 
   )
