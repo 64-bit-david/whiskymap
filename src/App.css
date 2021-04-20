@@ -54,16 +54,7 @@ body {
 }
 
 .drop-btn{
-  outline: transparent;
-  border: none;
-  font-size: 1.1rem;
-  padding: 5px;
-  border-radius: 10px;
-  background: none;
-  cursor: pointer;
-  transition: all .1s ease-in;
-  color: var(--main-text-color-dark);
-  
+  display: none;
 }
 
 .drop-btn.clicked{
@@ -105,12 +96,12 @@ body {
 }
 
 .input{
-  transform: translateY( -10rem);
+  transform: translateY(0);
   transition: all .2s ease-in ;
   height: inherit;
   outline: transparent;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 
@@ -194,7 +185,10 @@ button.search-btn:hover{
   background: var(--main-bg-color-dark);
 }
 
-
+button.search-btn:focus{
+  background: var(--main-bg-color-dark);
+  outline: none;
+}
 
 
 h1{
@@ -457,7 +451,7 @@ color: var(--main-text-color-dark);
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
   .nav{
     top: .5rem;
     flex-direction: column;
@@ -474,6 +468,29 @@ color: var(--main-text-color-dark);
     margin: 0;
   }
 
+  .drop-btn{
+    outline: transparent;
+    border: none;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    transition: all .1s ease-in;
+    color: var(--main-text-color-dark);
+    display: block;
+  }
+
+  .input{
+    transform: translateY(-10rem);
+    transition: all .2s ease-in ;
+    height: inherit;
+    outline: transparent;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
   .input, .about-btn-container{
     transform: translateY(-15rem);
   }
@@ -483,6 +500,12 @@ color: var(--main-text-color-dark);
     border: 2px dashed var(--effect-color);
     margin-top: .5rem;
   }
+
+  .input.clicked{
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
 
   .about-container {
     height: 70vh;
@@ -540,4 +563,5 @@ margin: 1rem 0;
     margin: .5rem 0;
     padding: 0;
   }
+
 }
