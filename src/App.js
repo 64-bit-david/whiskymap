@@ -58,13 +58,13 @@ const App = () => {
 
 
 
-  const AboutLink = () => {
+  const aboutLink = () => {
     return (
-      <div className={`about-btn-container ${navState && 'clicked'}`}>
+      <nav className={`about-btn-container ${navState && 'clicked'}`}>
         <button
           className="about-btn"
           onClick={() => setAboutState(!aboutState)}>About</button>
-      </div>
+      </nav>
     )
   }
 
@@ -85,11 +85,11 @@ const App = () => {
 
 
   return (
-    <div className="main-container">
+    <main className="main-container">
       <div className="nav">
         <Header />
         {dropBtn()}
-        {AboutLink()}
+        {aboutLink()}
 
         <DropSearch
           distilleryList={distilleryList}
@@ -159,7 +159,7 @@ const App = () => {
         </ReactMapGl>
       </div>
       <About aboutState={aboutState} setAboutState={setAboutState} />
-    </div>
+    </main>
   )
 }
 
