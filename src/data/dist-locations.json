@@ -1265,6 +1265,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Abhainn Dearg Distillery",
+        "YEAR": 2008,
         "WEBSITE": "https://abhainndeargdistillery.co.uk/",
         "REGION": "Islands",
         "OWNER": "Independent"
@@ -1283,6 +1284,7 @@
       "type": "Feature",
       "properties": {
         "NAME": "Glen Wyvis Distillery",
+        "YEAR": 2008,
         "WEBSITE": "https://glenwyvis.com/",
         "REGION": "Highland",
         "OWNER": "Independent"
